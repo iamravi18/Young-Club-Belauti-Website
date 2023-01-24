@@ -677,7 +677,7 @@
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="number" class="form-control" name="email" id="email" placeholder="Your Mobile Number" required>
+                  <input type="number" class="form-control" name="number" id="number" placeholder="Your Mobile Number" required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -687,8 +687,8 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="loading">Your message has been sent. Thank you!</div>
+                <div class="error-message">Your message has been sent. Thank you!</div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
@@ -753,9 +753,10 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Young Club Belauti Newsletter</h4>
             <p>We would love to hear your feedback and suggestions, please email us at </p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Send Me">
+            <form action="forms/contact.php" method="post">
+              <input type="text" name="email"><input type="submit" value="Send Me">
             </form>
+            <br>
             <p>Don't forget to follow us on our social media to stay updated on our events and activities.
               <br>
               Thanks for being a part of Young Club Belauti!</p>

@@ -1112,7 +1112,7 @@ section {
   margin-bottom: 80px;
   position: relative;
 }
-.team-member .pic img {
+.team .member .pic img {
   width: 100%; /* Ensure the image takes up the full width of its container */
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   border-radius: 50%; /* Make the images circular */
